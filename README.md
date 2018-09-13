@@ -7,8 +7,8 @@ Should work fine with most extensions, but just be careful if you have any subdi
 Also note that, if the extension is different, THE FILE WILL BREAK! Just like if you changed the ending yourself...
 You can change it back by using the NAMING_KEY.txt file to rename the file and extension.
 
-## Things that I should add that I probably won't because I'll likely never revisit this
-# but they're also all useful skills to learn so hey, maybe I will revisit this..
+# Things that I should add that I probably won't because I'll likely never revisit this...
+...but they're also all useful skills to learn so hey, maybe I will revisit this..
 - A GUI
 - Ability to revert texts back to using the NAMING_KEY.txt
 - Just swap names of files with other files that share the same extension (as an option)
