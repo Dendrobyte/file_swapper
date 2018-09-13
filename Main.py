@@ -8,7 +8,6 @@ from random import randint
 os.chdir(".\\test_dir") 
 # The list for original file names
 fileList = os.listdir()
-print("File list: " + str(fileList))
 
 # The list for the new file names, so renamedList[0] was named fileList[0]
 renamedList = []
@@ -25,15 +24,6 @@ replacedList = []
 # Lists for the NAMING_KEY.txt file
 oldName = []
 newName = []
-
-print("File list: ")
-print(fileList)
-print("Renamed list: ")
-print(renamedList)
-print("Temp list: ")
-print(tempList)
-print("Replaced list: ")
-print(replacedList)
 
 # Rename every file in fileList so that they can be replaced later
 for i in range(len(fileList)):
@@ -62,3 +52,4 @@ for i in range(len(newName)):
 # Just in case there is confusiong
 naming_key.write("\nIn other words, the file on the left has been renamed to the file on the right.\n")
 naming_key.close()
+print("Operation File Swap has been a complete success!")
